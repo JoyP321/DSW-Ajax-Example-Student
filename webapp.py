@@ -11,7 +11,7 @@ def home():
 
 @app.route('/newData')
 def addNewData():
-    return Markup("<p>hello i guess</p>")
+    return Markup("<p>new paragraph data</p>")
 
 if __name__ == '__main__':
     app.run()
