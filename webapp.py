@@ -9,7 +9,7 @@ app.debug = True #Change this to False for production
 def home():
     return render_template('home.html')
 
-@pp.route('/newData')
+@app.route('/newData')
 def addNewData():
     return Markup("<p>hello i guess</p>")
 
